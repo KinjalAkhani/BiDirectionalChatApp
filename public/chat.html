@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      
+    <div>
+        <form action="index.html">
+            <h1>Chat</h1>
+            <p>Room name</p>
+            <p id="roomName"></p>
+            <button class="btn">Leave Chat</button>
+        </form>
+    </div>
+
+    <div>
+        <ul id="roomUsers">
+        </ul>
+    </div>
+    
+    <div class="chat-messages">
+
+        <!-- <div class="message">
+            <p class="metaInfo">Kinjal: 9:30 AM</p>
+            <p class="chat"> Hello hello hi hello how are you</p>
+        </div> -->
+
+    </div>
+    <div>
+
+        <form id="chat-form">
+
+            <div>
+
+                <div class="form-control">
+                
+                    <p>Enter message ::</p>
+                    <input type="text" 
+                        name="message"
+                        id="message"/>
+                </div>
+
+                <div>
+                    <button class="btn">Send</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.min.js" 
+        integrity="sha256-ijqLssetA1NMNjZ+w1zaUafQQLm4IW5OoM8O+4tatME=" 
+        crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "bidirectionalchatapp",
+  "version": "1.0.0",
+  "description": "Streebo Chatbot training demo - Bidirectional chat application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm server",
+    "dev": "nodemon server"
+  },
+  "author": "Kinjal Akhani - Streebo Solutions Pvt. Ltd.",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.26.0",
+    "mongoose": "^5.9.16",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
